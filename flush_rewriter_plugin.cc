@@ -33,7 +33,7 @@
 #include "my_inttypes.h"
 #include "my_psi_config.h"
 #include "my_thread.h"  // my_thread_handle needed by mysql_memory.h
-#include "plugin/flush_rewriter/flush_rewriter.h"
+#include "flush_rewriter.h"
 #include "template_utils.h"
 
 /* Define system variable.  */

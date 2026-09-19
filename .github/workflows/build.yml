@@ -25,6 +25,7 @@ jobs:
     uses: lefred/mysql-component-ci/.github/workflows/build-component.yml@main
     with:
       component_name: ${{ matrix.component }}
+      # The shared SDK stages this plugin under components/flush_rewriter.
       component_directory: flush_rewriter
       build_target: ${{ matrix.component }}
       component_library: ${{ matrix.component }}.so

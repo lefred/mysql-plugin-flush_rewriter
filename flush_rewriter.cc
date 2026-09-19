@@ -23,7 +23,7 @@
 #include <regex>
 #include <string>
 
-#include "plugin/flush_rewriter/flush_rewriter.h"
+#include "flush_rewriter.h"
 
 bool query_rewritten(const std::string &query, std::string *rewritten_query, bool force_local) {
   /*
