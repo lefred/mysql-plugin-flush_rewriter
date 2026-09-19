@@ -20,7 +20,7 @@ jobs:
       max-parallel: 1 
       matrix:
         component:
-          - NAME
+          - flush_rewriter
 
     uses: lefred/mysql-component-ci/.github/workflows/build-component.yml@main
     with:
